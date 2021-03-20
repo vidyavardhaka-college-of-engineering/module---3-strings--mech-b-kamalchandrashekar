@@ -1,4 +1,4 @@
-Complete the given program with string declaration/initialization & read/print the string
+//complete the  given program with string declaration/initialization & read/print the string
 // Instructions:-
 //1) Initially, declare a string with size
 //2) read the input string from user 
@@ -9,11 +9,11 @@ Complete the given program with string declaration/initialization & read/print t
 //The input string is Vidyavardhaka
 
 #include <stdio.h>
-int main() 
-{
-                      //Declare the string
-printf("Enter a String: ")
-                      //read the string from user
-                      //Print the string
+int main()
+{ 
+char a[100];  
+printf("Enter a String: ");
+scanf("%s",a);
+printf("The input string is %s",a);
 return 0;
 }
