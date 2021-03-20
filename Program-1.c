@@ -14,6 +14,6 @@ int main()
 char a[100];  
 printf("Enter a String: ");
 scanf("%s",a);
-printf("the input string is %s",a);
+printf("The input string is %s",a);
 return 0;
 }
