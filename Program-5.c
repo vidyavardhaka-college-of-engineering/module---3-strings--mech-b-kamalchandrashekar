@@ -10,14 +10,18 @@
 #include <stdio.h>
 int main()
 {
-  int c = 0, count = 0;
+  int c , count = 0;
   char s[1000];
 
-  printf("Input a string: ");
+  printf("Enter the string: ");
   scanf("%s", s);
 
-  while (s[c] != '\0') {
-                               //place logic to find the vowel
+  for(c=0;c<500;c++) 
+  {
+   if(s[c]=='i')
+    {
+     count++;
+    } 
   }
 
   printf("Number of vowels in the string = %d", count);
