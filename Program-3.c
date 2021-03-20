@@ -16,7 +16,7 @@ int main() {
 	int i, j;
 	printf("Enter the first string: ");
 	scanf("%s", a);
-	printf("Enter the second string: ");
+	printf("Enter the second string:  ");
 	scanf("%s", b);
 	for (i=0;i<20;i++)                                                // Complete the code in for
            { 
